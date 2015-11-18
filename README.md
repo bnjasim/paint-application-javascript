@@ -1,4 +1,4 @@
-Paint Application in Javascript 
+# H1 Paint Application in Javascript 
 
 (Rquires JQuery, Twitter Bootstrap and HTML Canvas supported browser)
 
@@ -21,5 +21,5 @@ Courtesy: This project is inspired by http://codetheory.in/creating-a-paint-appl
 But there are additional tools implemented like fill tool, undo-redo, color picker etc.
 The eraser is implemented by clearRect function of the canvas context2D.
 
-![Alt Paint Application](paint.png "Screen Shot")
+![alt Paint Application](./paint.PNG "Screen Shot")
 
