@@ -1,0 +1,104 @@
+
+#paint {
+	width: 100%;
+	height: 340px;
+}
+
+#sketch {
+	border: 2px solid gray;
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 80%;
+	height: 100%;
+	padding: 10px;
+}
+
+
+
+#tmp_canvas {
+	position: absolute;
+	left: 10px; 
+	top: 10px;
+	cursor: crosshair;
+}
+
+#paint-panel {
+	padding: 0px 10px;
+	width: 20%;
+	height: 100%;
+	float: left;
+	border-radius: 4px;
+}
+
+#paint-panel .btn-group {
+	width: 90px;
+	margin: 0 auto;
+	display: block;
+	background-color: #fafafa;
+	overflow: auto;
+	padding: 0px 4px;
+}
+
+#choose-size {
+	width: 90px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 20px;
+}
+
+#paint-panel .title {
+	font-weight: bold;
+	color: rgba(100,100,100, 0.8);
+	font-style: italic;
+	font-size: 13px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+#paint-panel .btn-group .btn{
+	background-color: #fafafa;
+}
+
+#paint-panel .radio-group {
+	display: block;
+	width: 30px;
+	margin: 0 auto;
+}
+
+
+#color-panel .btn-group {
+	border: 1px solid gray;
+}
+#color-panel .btn {
+	width: 30px;
+	height: 25px;
+	border: 1px solid rgba(200,200,200,0.8);
+}
+
+#color-panel {
+	margin-left: 20px;
+	display: inline-block;
+}
+
+#paint-undo-redo {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+#paint-clear {
+	margin-left: 30px;
+	
+}
+
+#text_tool {
+    position: absolute;
+    border: 1px dashed black;
+    outline: 0;
+    display: none;
+    
+    padding: 4px 8px; 
+    font: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+}
