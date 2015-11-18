@@ -20,3 +20,6 @@ Courtesy: This project is inspired by http://codetheory.in/creating-a-paint-appl
 (especially the idea of using a temporary drawing canvas)
 But there are additional tools implemented like fill tool, undo-redo, color picker etc.
 The eraser is implemented by clearRect function of the canvas context2D.
+
+![Alt Paint Application](paint.png "Screen Shot")
+
